@@ -15,3 +15,4 @@
 Шаг 2. Поставить PostgreSQL
 Для установки PostgreSQL на ВМ применялась команда:
     sudo apt install postgresql
+![image](https://github.com/user-attachments/assets/10b8240b-d4bf-4fc2-933c-f814503ebae3)
