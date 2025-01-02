@@ -15,3 +15,6 @@
 ![image](https://github.com/user-attachments/assets/f1da250e-e380-4d31-8580-c88b43e0a78f)
 
 Шаг 4. Развернуть контейнер с PostgreSQL смонтировав в него /var/lib/postgresql
+![image](https://github.com/user-attachments/assets/13a5f2cb-38fd-4029-a9c1-1e5985448477)
+
+Шаг 5. Развернуть контейнер с клиентом postgres
