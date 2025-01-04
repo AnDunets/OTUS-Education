@@ -9,7 +9,7 @@
 
 Шаг 2. Поставить на нем Docker Engine
 Для установки Docker Engine использовалась инструкция с сайта: https://docs.docker.com/engine/install/ubuntu/
-![image](https://github.com/user-attachments/assets/484cb9db-6a02-4a2c-afc5-a8abe9754d37)
+![image](https://github.com/user-attachments/assets/babea19e-d223-4406-8776-a96444668fbe)
 
 Шаг 3. Сделать каталог /var/lib/postgres
 ![image](https://github.com/user-attachments/assets/f1da250e-e380-4d31-8580-c88b43e0a78f)
