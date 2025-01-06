@@ -16,8 +16,9 @@
 
 Шаг 4. Развернуть контейнер с PostgreSQL смонтировав в него /var/lib/postgresql
 ![image](https://github.com/user-attachments/assets/4583a19d-f1a9-49d3-855e-c3bd1132ad95)
+![image](https://github.com/user-attachments/assets/863a83c7-372e-4694-828b-845b2a8b9819)
 
 Шаг 5. Развернуть контейнер с клиентом postgres
-  sudo docker run -it --rm --name pg-client postgres:16 psql -h 5432 -U postgres
-![image](https://github.com/user-attachments/assets/ed6b27d9-4f68-46d2-959e-ae5e82a739ce)
+   sudo docker run -it --rm --network posgtres-net --name pg-client postgres:16 psql -h **.***.*.** -U postgres
+
 
