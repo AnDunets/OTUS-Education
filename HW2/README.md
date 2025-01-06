@@ -19,6 +19,6 @@
 ![image](https://github.com/user-attachments/assets/863a83c7-372e-4694-828b-845b2a8b9819)
 
 Шаг 5. Развернуть контейнер с клиентом postgres
-   sudo docker run -it --rm --network posgtres-net --name pg-client postgres:16 psql -h **.***.*.** -U postgres
+   sudo docker run -it --rm --network posgtres-net --name pg-client postgres:16 psql -h (Внутренний IPv4-адрес ВМ) -U postgres
 
 
