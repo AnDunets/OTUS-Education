@@ -21,4 +21,9 @@
 Шаг 5. Развернуть контейнер с клиентом postgres
    sudo docker run -it --rm --network posgtres-net --name pg-client postgres:16 psql -h (Внутренний IPv4-адрес ВМ) -U postgres
 
+Шаг 6. Создать БД
+![image](https://github.com/user-attachments/assets/f91bb609-1c6a-455c-9d96-d3f859b83d14)
+![image](https://github.com/user-attachments/assets/8ccc73a4-1c71-435a-b3b9-09d47c32795b)
 
+Шаг 7. Сделать таблицу с парой строк
+![image](https://github.com/user-attachments/assets/6ac74b68-029d-4952-a828-4ef953e1a506)
