@@ -12,11 +12,10 @@
 Шаг 2. Поставить PostgreSQL
 Для установки PostgreSQL на ВМ применялась команда:
     sudo apt install postgresql
-![image](https://github.com/user-attachments/assets/10b8240b-d4bf-4fc2-933c-f814503ebae3)
 
 Шаг 3. Получить параметры кластера
      sudo pg_lsclusters
-![image](https://github.com/user-attachments/assets/c6bbba90-7811-43d1-951f-a30e913b95ef)
+![image](https://github.com/user-attachments/assets/a5173a57-9829-4ca6-b52e-22f47d296edf)
 
 Шаг 4. Подключение к БД под пользователем postgres
      sudo -u postgres psql
