@@ -19,4 +19,5 @@
 
 Шаг 4. Подключение к БД под пользователем postgres
      sudo -u postgres psql
-![image](https://github.com/user-attachments/assets/5abd5fea-b69c-45b5-b4b2-79d722d1a3cd)
+![image](https://github.com/user-attachments/assets/184a0298-7584-44c8-a360-192ba3f18a9d)
+
