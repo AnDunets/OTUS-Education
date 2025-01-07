@@ -33,5 +33,9 @@
 
 Шаг 9. Удалить контейнер с сервером
 ![image](https://github.com/user-attachments/assets/aa3c3c61-5802-497d-aec3-43e936bbc0ae)
+   sudo docker rm 936873ee08a4
 
 Шаг 10. Создать его заново
+![image](https://github.com/user-attachments/assets/c7bfaa93-93bd-4bc3-84b9-9b8c8aecf647)
+
+Шаг 11. Подключиться снова из контейнера с клиентом к контейнеру с сервером
