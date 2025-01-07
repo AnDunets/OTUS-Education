@@ -1,4 +1,4 @@
-#HW - Установка и настройка PostgteSQL
+#HW - Установка и настройка PostgreSQL
 
 Цель:
 - установить PostgreSQL в Docker контейнере
