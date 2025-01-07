@@ -39,3 +39,8 @@
 ![image](https://github.com/user-attachments/assets/c7bfaa93-93bd-4bc3-84b9-9b8c8aecf647)
 
 Шаг 11. Подключиться снова из контейнера с клиентом к контейнеру с сервером
+![image](https://github.com/user-attachments/assets/02bfec7a-798b-41b4-bfc8-70bd444f5f4a)
+
+Шаг 12. Проверить, что данные остались на месте
+![image](https://github.com/user-attachments/assets/9d601286-4735-4c07-9b3e-df461e23620c)
+![image](https://github.com/user-attachments/assets/94843992-2e23-416f-a076-b9c1b38cf672)
