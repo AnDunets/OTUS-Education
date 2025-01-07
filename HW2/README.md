@@ -27,3 +27,11 @@
 
 Шаг 7. Сделать таблицу с парой строк
 ![image](https://github.com/user-attachments/assets/6ac74b68-029d-4952-a828-4ef953e1a506)
+
+Шаг 8. Подключится к контейнеру с сервером с ноутбука/компьютера извне инстансов ЯО/места установки докера
+![image](https://github.com/user-attachments/assets/804f08f1-5347-4d24-8448-d3685eb2164f)
+
+Шаг 9. Удалить контейнер с сервером
+![image](https://github.com/user-attachments/assets/aa3c3c61-5802-497d-aec3-43e936bbc0ae)
+
+Шаг 10. Создать его заново
