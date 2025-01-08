@@ -21,4 +21,12 @@
      sudo -u postgres psql
 ![image](https://github.com/user-attachments/assets/a2af8630-dba9-4105-a7e4-0c3018eba750)
 
+Шаг 5. Выключить auto commit
+![image](https://github.com/user-attachments/assets/cf7be723-616d-4d28-b169-1bf4009a50ec)
 
+Шаг 6. В первой сессии новую таблицу и наполнить ее данными 
+    create table persons(id serial, first_name text, second_name text); 
+    insert into persons(first_name, second_name) values('ivan', 'ivanov'); 
+    insert into persons(first_name, second_name) values('petr', 'petrov'); 
+    commit;
+    ![image](https://github.com/user-attachments/assets/ac9b1b67-320f-4ab4-acef-d4c05a745cc1)
