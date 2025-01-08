@@ -19,10 +19,10 @@
 
 Шаг 4. Подключение к БД под пользователем postgres
      sudo -u postgres psql
-![image](https://github.com/user-attachments/assets/a2af8630-dba9-4105-a7e4-0c3018eba750)
 
 Шаг 5. Выключить auto commit
-![image](https://github.com/user-attachments/assets/cf7be723-616d-4d28-b169-1bf4009a50ec)
+
+![image](https://github.com/user-attachments/assets/45e46868-ca4f-45d8-b956-656920ea04af)
 
 Шаг 6. В первой сессии новую таблицу и наполнить ее данными 
     create table persons(id serial, first_name text, second_name text); 
