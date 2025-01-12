@@ -64,3 +64,10 @@
 Шаг 10. Сделать пользователя postgres владельцем /mnt/data
    sudo chown -R postgres:postgres /mnt/data/
 ![image](https://github.com/user-attachments/assets/9438ff67-8e55-4de7-8478-33fcac8ff2e9)
+
+Шаг 11. Перенести содержимое /var/lib/postgres/17 в /mnt/data
+![image](https://github.com/user-attachments/assets/ca81599e-2a27-46bd-ab65-a52a93bed7c1)
+
+Шаг 12. Запуск кластера
+При вызове команды sudo -u postgres pg_ctlcluster 15 main start получаем ошибку, т.к. изменили место расположения файла. Необхоимо изменить путь в конфигурационном файле
+![image](https://github.com/user-attachments/assets/cc04ae6e-d96a-48ab-924b-20cefc507aae)
