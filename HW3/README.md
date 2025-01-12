@@ -23,3 +23,4 @@
 
 Шаг 5. Остановить postgres
  sudo systemctl stop postgresql@17-main
+![image](https://github.com/user-attachments/assets/83dec9a3-25aa-40a4-89a6-eeb428ff5bdb)
