@@ -53,3 +53,4 @@
   df -h
 ![image](https://github.com/user-attachments/assets/4779af8a-9b82-4b4e-9833-80a2950a5dae)
 
+Шаг 9. Перезагрузить инстанс
