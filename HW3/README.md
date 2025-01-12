@@ -47,10 +47,20 @@
   sudo lsblk --fs
 ![image](https://github.com/user-attachments/assets/6c6714df-4038-4fad-9c05-4df573eccf54)
   sudo mkdir -p /mnt/data
-  sudo mount -o defaults /dev/sda1 /mnt/data
+  sudo mount -o defaults /dev/vdb1 /mnt/data
   sudo nano /etc/fstab
   sudo mount -a
   df -h
 ![image](https://github.com/user-attachments/assets/4779af8a-9b82-4b4e-9833-80a2950a5dae)
 
 Шаг 9. Перезагрузить инстанс
+После перезагрузки инстанса диск не остался примонтированным
+![image](https://github.com/user-attachments/assets/f622449a-3fe1-473e-b093-dc67f9ad7b5e)
+Решение:
+![image](https://github.com/user-attachments/assets/64d1ff99-8eb8-4eeb-b96e-3f126988b9ca)
+Теперь после перезагрузки диск не исчез
+![image](https://github.com/user-attachments/assets/799260d2-6a8a-46dd-885c-17bf96e24f7b)
+
+Шаг 10. Сделать пользователя postgres владельцем /mnt/data
+   sudo chown -R postgres:postgres /mnt/data/
+![image](https://github.com/user-attachments/assets/9438ff67-8e55-4de7-8478-33fcac8ff2e9)
