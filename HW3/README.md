@@ -20,3 +20,6 @@
   insert into test values('1');
   \q
 ![image](https://github.com/user-attachments/assets/c689c6c3-bc16-484d-946a-4f4eab2f6bf9)
+
+Шаг 5. Остановить postgres
+ sudo systemctl stop postgresql@17-main
