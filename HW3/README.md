@@ -83,3 +83,7 @@
 
 Шаг 15. Запуск кластера
   sudo -u postgres pg_ctlcluster 17 main start
+  sudo -u postgres pg_lsclusters
+  ![image](https://github.com/user-attachments/assets/0eeac964-e737-42c6-a2d7-a9a20d8f7ce1)
+
+
