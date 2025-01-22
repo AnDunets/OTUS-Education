@@ -86,4 +86,6 @@
   sudo -u postgres pg_lsclusters
   ![image](https://github.com/user-attachments/assets/0eeac964-e737-42c6-a2d7-a9a20d8f7ce1)
 
-
+Шаг 16. Зайти через через psql и проверить содержимое ранее созданной таблицы
+![image](https://github.com/user-attachments/assets/1292a37b-0dd3-4590-bf25-dde1fb41d0ec)
+Данные доступны.
