@@ -69,5 +69,17 @@
 ![image](https://github.com/user-attachments/assets/ca81599e-2a27-46bd-ab65-a52a93bed7c1)
 
 Шаг 12. Запуск кластера
-При вызове команды sudo -u postgres pg_ctlcluster 15 main start получаем ошибку, т.к. изменили место расположения файла. Необхоимо изменить путь в конфигурационном файле
+При вызове команды sudo -u postgres pg_ctlcluster 17 main start получаем ошибку, т.к. изменили место расположения файла. Необхоимо изменить путь в конфигурационном файле
 ![image](https://github.com/user-attachments/assets/cc04ae6e-d96a-48ab-924b-20cefc507aae)
+
+Шаг 13. Найти конфигурационный параметр в файлах раположенных в /etc/postgresql/17/main, который надо поменять, и поменяйте его
+Заходим в нужную директорию и смотрим ее содержимое
+![image](https://github.com/user-attachments/assets/0baf86e5-ceb6-45bf-a733-c52dd90aaf9d)
+Открываем файл (sudo nano postgresql.conf) и редактируем путь:
+  Было
+  ![image](https://github.com/user-attachments/assets/957f2a5c-5eaa-48e4-b12b-a2926f3304a5)
+  Стало
+  ![image](https://github.com/user-attachments/assets/bf61f7ca-5893-474b-a6d3-0c81db7ee803)
+
+Шаг 15. Запуск кластера
+  sudo -u postgres pg_ctlcluster 17 main start
