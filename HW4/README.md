@@ -8,3 +8,6 @@
 Шаг 1. Cоздать новый кластер PostgresSQL
 
 Шаг 2. Зайти в созданный кластер под пользователем postgres
+![image](https://github.com/user-attachments/assets/592d2e84-1477-4858-822a-6d204d50ed2d)
+
+Шаг 3. Создать новую базу данных testdb
