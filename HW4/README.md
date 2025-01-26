@@ -8,6 +8,16 @@
 Шаг 1. Cоздать новый кластер PostgresSQL
 
 Шаг 2. Зайти в созданный кластер под пользователем postgres
-![image](https://github.com/user-attachments/assets/592d2e84-1477-4858-822a-6d204d50ed2d)
+![image](https://github.com/user-attachments/assets/d335afc7-94ca-4dc8-8e90-463562412dd1)
 
-Шаг 3. Создать новую базу данных testdb
+Шаг 3. 
+- Зайти в созданный кластер под пользователем postgres
+- Создать новую базу данных
+- Зайти в созданную базу данных под пользователем postgres
+- Создать новую схему
+![image](https://github.com/user-attachments/assets/4e094bc0-dacb-419f-b1d6-b8f6799fdab2)
+
+Шаг 4.
+- Создать новую таблицу t1 с одной колонкой c1 типа integer
+- Вставить строку со значением c1=1
+![image](https://github.com/user-attachments/assets/92dc3253-e2ea-43b0-b54c-08598ba932a2)
