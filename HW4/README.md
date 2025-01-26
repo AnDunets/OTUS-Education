@@ -42,6 +42,7 @@
 Внесем корректировки в файл /etc/postgresql/16/main/pg_hba.conf:
 ![image](https://github.com/user-attachments/assets/6362ac47-d002-4ddd-9b18-e309afa4deca)
 sudo service postgresql restart
+
 Повторяем действия
 
 ![image](https://github.com/user-attachments/assets/eaa706ec-073e-4e76-89d8-df3752c2a82d)
