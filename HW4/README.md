@@ -15,9 +15,11 @@
 - Создать новую базу данных
 - Зайти в созданную базу данных под пользователем postgres
 - Создать новую схему
+
 ![image](https://github.com/user-attachments/assets/4e094bc0-dacb-419f-b1d6-b8f6799fdab2)
 
 Шаг 4.
 - Создать новую таблицу t1 с одной колонкой c1 типа integer
 - Вставить строку со значением c1=1
+
 ![image](https://github.com/user-attachments/assets/92dc3253-e2ea-43b0-b54c-08598ba932a2)
