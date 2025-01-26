@@ -31,3 +31,11 @@
   - использование схемы
   - select для всех таблиц схемы
  
+![image](https://github.com/user-attachments/assets/b8322399-17f8-4259-a92c-f0fc2c263b36)
+
+Шаг 6.
+- Создать пользователя testread с паролем test123
+- Дать роль readonly пользователю testread
+- Зайти под пользователем testread в базу данных testdb
+
+![image](https://github.com/user-attachments/assets/5cd1aa85-9664-4d29-90e5-1ef5f3ff5edf)
