@@ -68,5 +68,31 @@ sudo service postgresql restart
 - Создайте таблицу заново, но уже с явным указанием имени схемы
 - Вставьте строку со значением c1=1
 - Зайдите под пользователем testread в базу данных
-- Сделайте select * from testnm.t1;
+- Сделайте select * from testdb.t1;
 
+![image](https://github.com/user-attachments/assets/ae281698-c4ea-494e-a156-080962f4d364)
+
+Отобразим перечень лиц, кому доступна таблица testdb.t1:
+
+![image](https://github.com/user-attachments/assets/3f01188a-9ff7-4ef7-bde3-df2fd0ba3670)
+
+Видим, что лист пуст, следовательно, на вновь сохданные таблицы необходимо выдавать права дополнительно.
+
+![image](https://github.com/user-attachments/assets/e1f97602-dd6a-4235-a800-0e82e5b35366)
+
+Шаг 10. Выполните команду create table t2(c1 integer); insert into t2 values (2);
+Получаем ошибку, т.к. имеем лишь права на readonly:
+
+![image](https://github.com/user-attachments/assets/9b95fd29-8cda-4b2f-8059-f60e639cb336)
+
+search_path указывает в первую очередь на схему public. 
+Схема public создается в каждой базе данных по умолчанию, поэтому grant на все действия в этой схеме дается роли public. 
+Роль public добавляется всем новым пользователям, соответсвенно каждый пользователь может по умолчанию создавать объекты в схеме public любой базы данных
+
+Шаг 11. Выполним команды:
+  REVOKE CREATE on SCHEMA public FROM public; 
+  REVOKE ALL on DATABASE otus4 FROM public;
+
+Тем самым отозвали привелегии создания таблиц в схеме public, поэтому выполнение команды create table t3(c1 integer); insert into t2 values (2); выдает ошибку:
+
+![image](https://github.com/user-attachments/assets/3c8220b8-2299-45f8-820a-b428eab2de74)
