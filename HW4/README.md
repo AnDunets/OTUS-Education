@@ -39,3 +39,8 @@
 - Зайти под пользователем testread в базу данных testdb
 
 ![image](https://github.com/user-attachments/assets/5cd1aa85-9664-4d29-90e5-1ef5f3ff5edf)
+Внесем корректировки в файл /etc/postgresql/16/main/pg_hba.conf:
+![image](https://github.com/user-attachments/assets/6362ac47-d002-4ddd-9b18-e309afa4deca)
+
+Повторяем действия
+
