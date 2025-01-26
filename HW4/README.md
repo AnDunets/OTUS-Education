@@ -50,3 +50,5 @@ sudo service postgresql restart
 Шаг 7. Выполните запрос select * from t1;
 
 ![image](https://github.com/user-attachments/assets/c30264ff-2105-4e57-9496-d8015b515d6f)
+В доступе к данным таблицы t1 отказано.
+При ее создании не указывали схему, поэтому она создалась внутри схему public:
