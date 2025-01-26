@@ -46,3 +46,7 @@ sudo service postgresql restart
 Повторяем действия
 
 ![image](https://github.com/user-attachments/assets/eaa706ec-073e-4e76-89d8-df3752c2a82d)
+
+Шаг 7. Выполните запрос select * from t1;
+
+![image](https://github.com/user-attachments/assets/c30264ff-2105-4e57-9496-d8015b515d6f)
