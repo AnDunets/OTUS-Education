@@ -53,3 +53,5 @@ sudo service postgresql restart
 
 В доступе к данным таблицы t1 отказано.
 При ее создании не указывали схему, поэтому она создалась внутри схемы public:
+
+![image](https://github.com/user-attachments/assets/de84b818-cc72-460a-8a76-a7129269400a)
